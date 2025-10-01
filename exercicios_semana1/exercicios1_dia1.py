@@ -24,16 +24,3 @@ print(f'O valor é {booleanTrue} o tipo é {type(booleanTrue)}')
 print(f'O valor é {string} o tipo é {type(string)}')
 
 
-#Exercicios 2 semana 1
-
-a = 15 
-b = 4  
-
-soma = a + b
-subtracao = a - b
-divisaoFloat = a / b
-produto = a * b
-divisaoInt = a // b
-resto = a % b
-
-print(f'{soma,subtracao,produto,divisaoFloat,divisaoInt,resto}')

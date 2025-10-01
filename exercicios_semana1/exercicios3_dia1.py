@@ -1,6 +1,6 @@
 # dia 1 semana 1 revisão o basico em python 
 
-#Exercicios 2 semana 1
+#Exercicios 3 semana 1
 print('-'*10)
 print('Gerador de medias')
 print('-'*10)

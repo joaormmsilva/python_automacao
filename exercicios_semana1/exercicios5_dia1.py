@@ -4,6 +4,6 @@
 
 import datetime
 
-data = datetime.datetime.now()
-string = str(data)
-print(f"dia {string[8:10]}, mes {string[5:7]}, ano {string[0:4]}")
+date = datetime.datetime.now()
+string = str(date)
+print(f"day {string[8:10]}, month {string[5:7]}, year {string[0:4]}")
