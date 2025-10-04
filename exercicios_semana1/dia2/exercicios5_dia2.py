@@ -23,5 +23,14 @@ produtos = {
 
 print('Lista de produtos')
 
+soma = []
+
 for c,v in produtos.items():
+    soma.append(v)
+
     print(f'\n{c}: R${v:.2f}')
+
+maisCaro = sorted(soma)
+total = sum(soma)
+
+print(f'\nA soma total de todos os produto serão {total} eo valor mais caro é {maisCaro[-1]}')
